@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        class Node {
+            constructor(data) {
+                this.data = data;
+                this.next = null;
+            }
+        }
+
+        let head = new Node(10);
+        let second = new Node(20);
+        let third = new Node(30);
+        let fourth = new Node(40);
+        let fifth = new Node(50);
+
+        head.next = second;
+        second.next = third;
+        third.next = fourth;
+        fourth.next = fifth;
+
+        // const printlist = (head) => {
+        //     let temp = head;
+        //     while (temp != null) {
+        //         console.log(temp.data);
+        //         temp = temp.next;
+        //     }
+        // }
+
+        const firstinsert = (head) => {
+            console.log('After insertion');
+            let NewNode = new Node(60)
+            NewNode.next = head;
+            head = NewNode;
+            // printlist(head);
+        };
+
+        // printlist(head);
+        firstinsert(head);
+
+    </script>
+</body>
+
+</html>
