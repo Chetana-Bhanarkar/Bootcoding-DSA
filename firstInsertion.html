@@ -29,23 +29,15 @@
         third.next = fourth;
         fourth.next = fifth;
 
-        // const printlist = (head) => {
-        //     let temp = head;
-        //     while (temp != null) {
-        //         console.log(temp.data);
-        //         temp = temp.next;
-        //     }
-        // }
+        
 
         const firstinsert = (head) => {
             console.log('After insertion');
             let NewNode = new Node(60)
             NewNode.next = head;
             head = NewNode;
-            // printlist(head);
         };
 
-        // printlist(head);
         firstinsert(head);
 
     </script>
