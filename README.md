@@ -1,4 +1,3 @@
-# Bootcoding-DSA-linkedList
 
 ###### Bootcoding-DSA-linkedList
 
