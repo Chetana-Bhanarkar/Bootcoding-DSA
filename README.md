@@ -59,7 +59,7 @@ class Node{
 ### Algorithm
 
 - Define a new node i.e let newNode = new Node(50). 
-- New node is initialised as new head and previous head is next node as newNode.next = head and head = newNode.
+- New node is initialised as new head and previous head is next node as ```newNode.next = head and head = newNode```.
 - Print method is called to print new linked list.
 
 
@@ -82,9 +82,9 @@ const firstinsert = (head) => {
 ## How to insert node at the last position :
 
 ### Algorithm 
-- Create a new node. i.e let lastNode = new Node(500). 
-- Initialise head in any temporary variable. i.e. let t = head and traverse the linked list using while loop till last node.
-- As the last node is identified assign newly created node to last node of linked list. i.e t.next = lastNode
+- Create a new node. i.e ```let lastNode = new Node(500)```. 
+- Initialise head in any temporary variable. i.e. ```let temp = head``` and traverse the linked list using while loop till last node.
+- As the last node is identified assign newly created node to last node of linked list. i.e ```temp.next = lastNode```
 - printlist() method is called to print newly modified list.
 
 ![NewNodeinLastPosition](https://user-images.githubusercontent.com/114468530/206837791-2daeec02-48f0-4b11-9a77-b4a15c6cdeb1.png)
@@ -111,7 +111,7 @@ const lastInsert = (head) => {
 ## How to delete node at the first position : 
 
 ### Algorithm 
-- Assigning head to second node. i.e Head = head.next (Head will become Second Node).
+- Assigning head to second node. i.e ```Head = head.next``` (Head will become Second Node).
 
 ![206683651-5e44cbd3-4690-48cb-8068-41ac5dcfa9ca](https://user-images.githubusercontent.com/114468530/206838162-d66ab7a3-87a6-4df9-88f6-183b5c60bfc7.png)
 
@@ -132,10 +132,10 @@ const firstDelete = (head) => {
 ![206678792-62e1edea-f4e6-48b8-979a-0b2a093b5a39](https://user-images.githubusercontent.com/114468530/206838307-18374f71-1530-4dc3-911f-fb7ae66fda61.png)
 
 ### Algorithm 
-- Initialise head(first node) in temp variable. i.e. temp = head. 
+- Initialise head(first node) in temp variable. i.e. ```temp = head```. 
 - Traversing a linked list till the last node of list.
-- If condition checks the next two nodes starting from head to be null i.e. temp.next.next == null.
-- If condition satisfies it would stores next element to be null i.e temp.next = null which eventually eliminates the next node
+- If condition checks the next two nodes starting from head to be null i.e. ```temp.next.next == null```.
+- If condition satisfies it would stores next element to be null i.e ```temp.next = nul```l which eventually eliminates the next node
 
 ```
 function deletion(head) {
