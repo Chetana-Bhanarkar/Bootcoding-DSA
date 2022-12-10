@@ -135,7 +135,7 @@ const firstDelete = (head) => {
 - Initialise head(first node) in temp variable. i.e. ```temp = head```. 
 - Traversing a linked list till the last node of list.
 - If condition checks the next two nodes starting from head to be null i.e. ```temp.next.next == null```.
-- If condition satisfies it would stores next element to be null i.e ```temp.next = nul```l which eventually eliminates the next node
+- If condition satisfies it would stores next element to be null i.e ```temp.next = null``` which eventually eliminates the next node
 
 ```
 function deletion(head) {
