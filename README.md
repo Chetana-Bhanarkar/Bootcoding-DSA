@@ -15,7 +15,7 @@ Example of linked list -
  3) The last node of a linked list has the reference(link) as NULL.
 
 
-## How to create new linked list :
+## How to create new linked list in JAVASCRIPT :
 
 ```
 
