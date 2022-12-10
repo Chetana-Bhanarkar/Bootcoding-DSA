@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class info{
+            constructor(name , id){
+                this.n = name;
+                this.id = id;
+            }
+
+            address(add){
+                this.addr = add;
+            }
+
+            getdetails(){
+                return (`name : ${this.n} and adddress :  ${this.addr}`);
+            }
+        }
+
+        let information = new info('shakuntala' , 50);
+        information.address('Delhi');
+        console.log(information.getdetails());;
+    </script>
+</body>
+</html>
