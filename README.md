@@ -128,14 +128,16 @@ const firstDelete = (head) => {
 
 ## How to delete node at the last position : 
 
-
-![206678792-62e1edea-f4e6-48b8-979a-0b2a093b5a39](https://user-images.githubusercontent.com/114468530/206838307-18374f71-1530-4dc3-911f-fb7ae66fda61.png)
-
 ### Algorithm 
 - Initialise head(first node) in temp variable. i.e. ```temp = head```. 
 - Traversing a linked list till the last node of list.
 - If condition checks the next two nodes starting from head to be null i.e. ```temp.next.next == null```.
 - If condition satisfies it would stores next element to be null i.e ```temp.next = null``` which eventually eliminates the next node
+
+
+![206678792-62e1edea-f4e6-48b8-979a-0b2a093b5a39](https://user-images.githubusercontent.com/114468530/206838307-18374f71-1530-4dc3-911f-fb7ae66fda61.png)
+
+
 
 ```
 function deletion(head) {
