@@ -87,7 +87,7 @@ const firstinsert = (head) => {
 - As the last node is identified assign newly created node to last node of linked list. i.e ```temp.next = lastNode```
 - printlist() method is called to print newly modified list.
 
-![NewNodeinLastPosition](https://user-images.githubusercontent.com/114468530/206837791-2daeec02-48f0-4b11-9a77-b4a15c6cdeb1.png)
+![OUTPUT_insertionlastnode](https://user-images.githubusercontent.com/114468530/206852472-7ea9fb5e-c4b5-47a4-b899-606fbdac44a8.png)
 
 
 ```
@@ -113,7 +113,7 @@ const lastInsert = (head) => {
 ### Algorithm 
 - Assigning head to second node. i.e ```Head = head.next``` (Head will become Second Node).
 
-![206683651-5e44cbd3-4690-48cb-8068-41ac5dcfa9ca](https://user-images.githubusercontent.com/114468530/206838162-d66ab7a3-87a6-4df9-88f6-183b5c60bfc7.png)
+![OUTPUR_deletionOfFirstNode](https://user-images.githubusercontent.com/114468530/206852297-39658c09-75a7-4ef2-a921-97040ca6bb4e.png)
 
 
 ```
@@ -135,7 +135,7 @@ const firstDelete = (head) => {
 - If condition satisfies it would stores next element to be null i.e ```temp.next = null``` which eventually eliminates the next node
 
 
-![206678792-62e1edea-f4e6-48b8-979a-0b2a093b5a39](https://user-images.githubusercontent.com/114468530/206838307-18374f71-1530-4dc3-911f-fb7ae66fda61.png)
+![OUTPUT](https://user-images.githubusercontent.com/114468530/206852729-54395549-c2e0-45f6-8d31-d0934fc6ba4c.png)
 
 
 
