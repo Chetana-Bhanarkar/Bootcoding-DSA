@@ -35,9 +35,9 @@
 
 
         const prime_num = (head) => {
-            let flag = false;
             let temp = head;
             while(temp != null ){
+                let flag = false;
                 for(let i = 2 ; i < temp.data ; i++){
                     if(temp.data % i == 0){
                        flag = true;
@@ -53,7 +53,7 @@
 
 
         let head = element();
-        console.log(prime_num(head));;
+        prime_num(head);
 
     </script>
 </body>
