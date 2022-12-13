@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        class dryfruits {
+            getDryFruits() {
+                return 'Almond is the dryfruits';
+            }
+        }
+        class fruits extends dryfruits {
+            constructor() 
+            {
+                super();
+                console.log('constructor');
+            }
+            getFruits() 
+            {
+                return "Apple is the fruit";
+            }
+        }
+
+        let f1 = new fruits();
+        console.log(f1.getFruits());
+        console.log(f1.getDryFruits());
+    </script>
+</body>
+
+</html>
