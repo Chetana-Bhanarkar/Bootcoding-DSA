@@ -1,22 +1,16 @@
-let array = [8,9,6,3,2];
-
-const selectionSort = (array) => {
-    let min = array[0];
-    let temp ; 
-    for(let i=0 ; i<array.length-1; i++){
-        temp = array[i]
-        for(let j=i+1 ; j<array.length;j++){
-
-            if(min > array[i]){
-                min = array[i];
-                
-                temp = min;
-                min = array[j] ;
-                array[j] = temp;
-            }
+function selectionSort(arr) {
+    for (let i = 0; i < arr.length; i++) {
+      let lowest =i; 
+      for (let j = i + 1; j < arr.length; j++) {
+        if (arr[j] < arr[lowest]) {
+          lowest = j
         }
+      }
+      if (lowest !== i) {
+        // Swap
+        ;[arr[i], arr[lowest]] = [arr[lowest], arr[i]]
+      }
     }
-    return min;
-};
-
-console.log(selectionSort(array));
+    return arr
+  }
+  console.log(selectionSort([3, 5, 1, 2]));
