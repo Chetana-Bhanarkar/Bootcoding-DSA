@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" placeholder="Enter Stack element" id="newEl">
+    <button id="add">Add element in the stack</button>
+    <button id="remove">Remove element in the stack</button>
+    <button id="display">Display element in the stack</button>
+
+
+    <script>
+
+        let add = document.querySelector('#add');
+        let remove = document.querySelector('#remove');
+        let display = document.querySelector('#display');
+
+
+
+        let data = [];
+        let currentSize = data.length;
+        let max = 4;
+
+
+
+
+        add.addEventListener('click', () => {
+            let newVal = document.getElementById('newEl').value;
+            if (currentSize > max) {
+                alert('stack is full');
+            }
+            else {
+                data[currentSize] = newVal;
+                currentSize += 1;
+                document.getElementById('newEl').value = "";
+            }
+        })
+
+        remove.addEventListener('click', () => {
+            if (currentSize > 0) {
+                currentSize -= 1;
+                data.length = currentSize;
+            }
+            else {
+                alert('stack is already empty')
+            }
+        });
+
+
+        display.addEventListener('click',()=>{
+            for(let i=0; i<currentSize ; i++){
+                console.log(data[i]);
+            }
+        })
+
+
+    </script>
+</body>
+
+</html>
