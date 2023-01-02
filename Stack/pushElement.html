@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let data = [];
+        let currenSize = data.length;
+        let max = 5;
+
+        console.log(data);
+
+        const push = (newVal) => {
+            if (currenSize > max) {
+                alert(`Stack is full, you cannot enter ${newVal}`)
+            }
+            data[currenSize] = newVal;
+            currenSize += 1;
+            return data;
+        };
+
+
+
+        push(50);
+        push(90);
+        push(67);
+        push(27);
+        push(54);
+        push(44);
+        push(56);
+    </script>
+</body>
+
+</html>
