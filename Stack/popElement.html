@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let data = [];
+        let currentSize = data.length;
+        let max = 5;
+
+        console.log(data);
+
+        const push = (newVal) => {
+            if (currentSize > max) {
+                alert(`Stack is full, you cannot enter ${newVal}`)
+            }
+            data[currentSize] = newVal;
+            currentSize += 1;
+            return data;
+        };
+
+        const pop = () => {
+            currentSize -= 1;
+            data.length = currentSize;
+        };
+
+        push(2);
+        push(3);
+        push(5);
+        push(8);
+        pop();
+
+    </script>
+</body>
+</html>
