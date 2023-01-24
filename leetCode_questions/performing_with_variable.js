@@ -10,17 +10,18 @@
 
 const performing_with_variable = (a) => {
         let sum = 0 ; 
-        for(let i=0 ; i<=a.length ; i++){
+        for(let i=0 ; i<a.length ; i++){
             if(a[i] == "--X" || a[i] == "X--"){
-                sum += -1;
+                sum--;
             }
-            else if(a[i] == "X++" || a[i] == "++X"){
-                sum += 1 ; 
+            else{
+                sum ++;
             }
         }
 
         return sum;
 }
+
 
 
 console.log(performing_with_variable(["++X","++X","X++"]));
