@@ -14,8 +14,8 @@ let c = new Node('C');
 let d = new Node('D'); // D is the left node of B
 let e = new Node('E'); // E is the Right node of B
 let f = new Node('F');
-let g = new Node('G')
-
+let g = new Node('G');
+let h = new Node('h');
 
 //Join the nodes 
 root.left = b;
