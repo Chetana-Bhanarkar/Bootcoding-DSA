@@ -58,7 +58,7 @@ console.log(hasDayWithoutBirds(birdsPerDay));
 
 // --------------------------------------------------------------------------------------
 
-// QUESTION :-- Check how many birds visited today ?
+// QUESTION 2 :-- Check how many birds visited today ?
 
 // SUMMARY :-- Implement the BirdWatcher.getToday() method to return how many birds visited your garden today. The bird counts are ordered by day, with the first element being the count of the oldest day, and the last element being today's count.
 
@@ -68,3 +68,28 @@ const getToday=(array)=>{
 }
 
 console.log(getToday(birdsPerDay));
+
+// --------------------------------------------------------------------------------------
+
+
+// QUESTION :-- Increment today's count ? 
+
+// SUMMARY :-- Implement the BirdWatcher.incrementTodaysCount() method to increment today's count
+
+
+const incrementTodaysCount=(array)=>{
+    return array[array.length-1]+1;
+}
+
+console.log(incrementTodaysCount(birdsPerDay));
+
+
+// --------------------------------------------------------------------------------------
+
+
+// QUESTION 5 :-- . Calculate the number of visiting birds for the first number of days ?
+
+// SUMMARY :--  Implement the BirdWatcher.getCountForFirstDays() method that returns the number of birds that have visited your garden from the start of the week, but limit the count to the specified number of days from the start of the week.
+
+
+let 
