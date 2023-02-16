@@ -62,3 +62,9 @@ console.log(hasDayWithoutBirds(birdsPerDay));
 
 // SUMMARY :-- Implement the BirdWatcher.getToday() method to return how many birds visited your garden today. The bird counts are ordered by day, with the first element being the count of the oldest day, and the last element being today's count.
 
+
+const getToday=(array)=>{
+    return array[array.length-1];
+}
+
+console.log(getToday(birdsPerDay));
