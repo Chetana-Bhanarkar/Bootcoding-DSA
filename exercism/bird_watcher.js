@@ -25,29 +25,20 @@ console.log(getToday(birdsPerDay));
 
 // --------------------------------------------------------------------------------------
 
-// QUESTION :--  Calculate the number of busy days ? 
+// QUESTION 3:-- Increment today's count ? 
 
-// SUMMARY :-- Some days are busier that others. A busy day is one where five or more birds have visited your garden. Implement the BirdWatcher.getBusyDays() method to return the number of busy days.
+// SUMMARY :-- Implement the BirdWatcher.incrementTodaysCount() method to increment today's count
 
 
-let birdsPerDay = [2, 5, 0, 7, 4, 1];
+const incrementTodaysCount=(array)=>{
+    return array[array.length-1]+1;
+}
 
-const getBusyDays = (array) => {
-        let count = 0;
-        for(let i=0;i<array.length;i++){
-            if(array[i] >= 5){
-                count++;
-            }
-        }
-        return count
-};
-
-console.log(getBusyDays(birdsPerDay));
-
+console.log(incrementTodaysCount(birdsPerDay));
 
 // --------------------------------------------------------------------------------------
 
-// QUESTION :-- Check if there was a day with no visiting birds ?
+// QUESTION 4 :-- Check if there was a day with no visiting birds ?
 
 // SUMMARY :-- Implement the BirdWatcher.hasDayWithoutBirds() method that returns true if there was a day at which zero birds visited the garden; otherwise, return false:
 
@@ -69,19 +60,24 @@ console.log(hasDayWithoutBirds(birdsPerDay));
 
 // --------------------------------------------------------------------------------------
 
+// QUESTION :--  Calculate the number of busy days ? 
+
+// SUMMARY :-- Some days are busier that others. A busy day is one where five or more birds have visited your garden. Implement the BirdWatcher.getBusyDays() method to return the number of busy days.
 
 
+let birdsPerDay = [2, 5, 0, 7, 4, 1];
 
-// QUESTION :-- Increment today's count ? 
+const getBusyDays = (array) => {
+        let count = 0;
+        for(let i=0;i<array.length;i++){
+            if(array[i] >= 5){
+                count++;
+            }
+        }
+        return count
+};
 
-// SUMMARY :-- Implement the BirdWatcher.incrementTodaysCount() method to increment today's count
-
-
-const incrementTodaysCount=(array)=>{
-    return array[array.length-1]+1;
-}
-
-console.log(incrementTodaysCount(birdsPerDay));
+console.log(getBusyDays(birdsPerDay));
 
 
 // --------------------------------------------------------------------------------------
