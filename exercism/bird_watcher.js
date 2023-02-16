@@ -92,4 +92,12 @@ console.log(incrementTodaysCount(birdsPerDay));
 // SUMMARY :--  Implement the BirdWatcher.getCountForFirstDays() method that returns the number of birds that have visited your garden from the start of the week, but limit the count to the specified number of days from the start of the week.
 
 
-let 
+const getCountForFirstDays=(array,num)=>{
+    let sum = 0;
+    for(let i=0;i<num ; i++){
+        sum += array[i];
+    }
+    return sum;
+}
+
+console.log(getCountForFirstDays(birdsPerDay,4));
