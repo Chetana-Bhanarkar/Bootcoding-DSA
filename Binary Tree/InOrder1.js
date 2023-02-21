@@ -35,3 +35,5 @@ function InOrder(root){
 }
 
 InOrder(root);
+
+// output :- P -> B -> Q -> A -> R -> C -> S
