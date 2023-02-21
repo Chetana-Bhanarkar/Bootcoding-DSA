@@ -8,6 +8,7 @@ a.set(10,100);
 a.set(20,200);
 a.set(30,300);
 a.set("apple",1);
+a.set("chetana","bhanarkar")
 
 // for(let m of a){
 //     console.log(m);
