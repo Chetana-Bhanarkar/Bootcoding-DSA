@@ -61,11 +61,6 @@ console.log(hasDayWithoutBirds(birdsPerDay));
 // --------------------------------------------------------------------------------------
 
 
-
-
-// --------------------------------------------------------------------------------------
-
-
 // QUESTION 5 :-- . Calculate the number of visiting birds for the first number of days ?
 
 // SUMMARY :--  Implement the BirdWatcher.getCountForFirstDays() method that returns the number of birds that have visited your garden from the start of the week, but limit the count to the specified number of days from the start of the week.
@@ -82,3 +77,26 @@ const getCountForFirstDays=(array,num)=>{
 console.log(getCountForFirstDays(birdsPerDay,4));
 
 
+// --------------------------------------------------------------------------------------
+
+
+// QUESTION 6 :--  Calculate the number of busy days ? 
+
+// SUMMARY :-- Some days are busier that others. A busy day is one where five or more birds have visited your garden. Implement the BirdWatcher.getBusyDays() method to return the number of busy days.
+
+
+let birdsPerDay = [2, 5, 0, 7, 4, 1];
+
+const getBusyDays = (array) => {
+        let count = 0;
+        for(let i=0;i<array.length;i++){
+            if(array[i] >= 5){
+                count++;
+            }
+        }
+        return count
+};
+
+console.log(getBusyDays(birdsPerDay));
+
+// --------------------------------------------------------------------------------------
