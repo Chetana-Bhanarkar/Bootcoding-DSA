@@ -22,8 +22,8 @@ root.left = b;
 root.right = c;
 b.left = d  // d is the left child of b
 b.right = e // e is the right child of b
-e.left = f
-e.right = g
+e.left = f // f is the left of e
+e.right = g // g is the right of e
 
 
 // Print the nodes or binary tree
