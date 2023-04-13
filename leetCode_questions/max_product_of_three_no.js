@@ -11,8 +11,10 @@ var maximumProduct = function(nums) {
                 nums[j] = temp;
             }
         }
-    }
+    };
+    let result1 =  nums[nums.length-1] * nums[nums.length-2] * nums[nums.length-3];  
+    let result2 =  nums[0] * nums[1] * nums[nums.length-1];  
 
-    return nums[nums.length-1] * nums[nums.length-2] * nums[nums.length-3];    
-};
-console.log(maximumProduct([ 10, 3, 5, 6, 20 ]));
+    return Math.max(result1,result2)
+}  
+console.log(maximumProduct([-100,-98,-1,2,3,4 ]));
