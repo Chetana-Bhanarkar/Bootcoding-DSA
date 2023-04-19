@@ -1,35 +1,23 @@
-// Input: nums = [1,2,3,2]
-// Output: 4
-// Explanation: The unique elements are [1,3], and the sum is 4.
+var sumOfUnique = function(nums) {
+    let result = 0 ; 
+    let hashmap = new Map() ; 
+   for(let i=0 ; i<nums.length ; i++){
+       let num = nums[i] ; 
 
-let nums = [1, 2, 3, 2]
-// var sumOfUnique = function(nums) {
-//     let sum = 0;
-//     for(let i=0 ; i<nums.length;i++){
-//         for(let j=1;j<=nums.length;j++){
-//             if(nums[i] == nums[j]){
-//                 break;
-//             }
-//         }
-//         sum += nums[i];
-
-//         }
-//         return sum;
-// };
-
-
-let value = [];
-var sumOfUnique = function (nums) {
-    let sum = 0;
-    for (let i = 0; i <= nums; i++){
-        for (let j = 1; j<= nums.length; j++) {
-            if (nums[i] == nums[j]){
-                break;
-            }
-        }
-    }
-    return sum
-}
+       if(hashmap.has(num)){
+           let currentCount = hashmap.get(num) ; 
+           if(currentCount === 1){
+               result -= num;
+               hashmap.set(num, currentCount+1)
+           }
+       }
+       else{
+           hashmap.set(num , 1);
+           result += num
+       }
+   }
+   return result;
+};
 
 
-console.log(sumOfUnique(nums));
+console.log(sumOfUnique[1,2,3,2]);
