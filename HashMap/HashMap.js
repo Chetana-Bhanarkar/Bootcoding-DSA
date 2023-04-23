@@ -1,29 +1,23 @@
-let m = new Map();
 
-m.set(10,100);
-m.set("a",true);
-m.set('apple',80);
 
-// console.log(m);
-// console.log(m.size);
-// console.log(m.get("a"));
+let map = new Map() ; 
 
-// for(a of m){
-//     console.log(a);
-// }
+let secondMap = new Map([[1,"apple"],[2,"banana"],[3,"cat"],[5,"cat"]]);
 
-// for(a of m.values()){
-//     console.log(a);
-// }
+console.log(map);
+console.log(secondMap);
 
-// m.delete("a");
-// console.log(m);
+console.log(secondMap.get(7)); // give value
 
-// m.clear();
-// console.log(m);
+console.log(secondMap.has(1)); // give boolean
 
-let secondHashmap = new Map([[1,"first"],[2,"second"],[3,"third"]]);
-// secondHashmap.has(10);
-console.log(secondHashmap.has(10));
-console.log(secondHashmap.get(10));
+console.log(secondMap.set(4,"dog")); // set key value
+
+console.log(secondMap.delete(3)); // delete key value by mentioning key
+console.log(secondMap);
+
+
+
+
+
 
