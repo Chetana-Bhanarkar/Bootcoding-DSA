@@ -1,9 +1,19 @@
 var isHappy = function(n) {
-    let sum = 0;
-    while(n > 0 || sum > 9 ){
-        if(n < 10){
-            return false ; 
+    let num = Array.from(String(n) , Number) ; 
+    let sum = 0 ; 
+    if(num.length >= 1){
+        while(sum === 1){
+            for(let i=0 ; i<num.length ; i++){
+                sum += num[i]*num[i] ; 
+            }
+            num = sum ; 
         }
-        sum = 
     }
+    let bool = sum === 1 ? true : false ; 
+
+    return bool ;
+    
 };
+
+
+console.log(isHappy(19));
