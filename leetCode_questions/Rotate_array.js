@@ -24,6 +24,7 @@ var rotate = function (nums, k) {
             nums.unshift(array[i]);
         }
         return nums;
+        
     }
 };
 
