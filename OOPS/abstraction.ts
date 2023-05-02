@@ -3,6 +3,10 @@ abstract class persons{
     constuctor(name : string){
         this.name = name ; 
     }
+
+    display():any{
+        return `Abstraction !!` ; 
+    }
 }
 
 
@@ -13,6 +17,20 @@ class person extends persons{
         this.age = age ; 
         this.name = name; 
     }
+
+    findname(name : string):any{
+        return `Your name is ${name}`
+    }
 }
+
+
+let prsn = new person('ARK',12);
+
+console.log(prsn);
+
+
+
+
+
 
 
