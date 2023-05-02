@@ -1,6 +1,6 @@
 abstract class persons{
     name : string ; 
-    constuctor(name : string){
+    constuctor( name : string){
         this.name = name ; 
     }
 
@@ -26,7 +26,10 @@ class person extends persons{
 
 let prsn = new person('ARK',12);
 
-console.log(prsn);
+prsn.display()
+console.log(prsn.display());
+
+
 
 
 
