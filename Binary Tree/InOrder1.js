@@ -30,7 +30,6 @@ function InOrder(root){
     {
         return
     }
-
     InOrder(root.left);
     console.log(`${root.data} -> `);
     InOrder(root.right);
