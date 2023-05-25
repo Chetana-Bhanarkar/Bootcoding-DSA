@@ -29,6 +29,7 @@ function InOrder(root){
     if(root==null){
         return
     }
+    
     InOrder(root.left);
     console.log(`${root.data} -> `);
     InOrder(root.right);
