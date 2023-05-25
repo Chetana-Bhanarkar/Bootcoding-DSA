@@ -26,10 +26,11 @@ root.right.right = s;
 
 
 function InOrder(root){
-    if(root==null){
+    if(root==null)
+    {
         return
     }
-    
+
     InOrder(root.left);
     console.log(`${root.data} -> `);
     InOrder(root.right);
