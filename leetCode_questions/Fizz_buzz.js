@@ -1,5 +1,6 @@
 let fizzBuzz = function(n) {
     let final=[];
+
     while(n!==0){
     if(n%3===0 && n%5===0){
         final.push('FizzBuzz');
@@ -16,6 +17,7 @@ let fizzBuzz = function(n) {
     n--;
     }
     return final.reverse();
+    
 };
 
 
