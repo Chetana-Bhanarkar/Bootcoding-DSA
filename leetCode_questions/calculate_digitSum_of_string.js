@@ -1,6 +1,5 @@
 let  s = "11111222223", k = 3
 
-
 let numbers = Array.from(s);
 // console.log(array);
 
