@@ -9,6 +9,7 @@ var isHappy = function(n) {
             num = sum ; 
         }
     }
+    
     let bool = sum === 1 ? true : false ; 
 
     return bool ;
