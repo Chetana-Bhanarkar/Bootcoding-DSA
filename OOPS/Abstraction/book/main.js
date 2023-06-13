@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var audiobook_1 = require("./audiobook");
+var ebook_1 = require("./ebook");
+var textbook_1 = require("./textbook");
+var tbook = new textbook_1.default('Alchemist', '10-July-1998');
+console.log(tbook.getReleaseDate());
+var Abook = new audiobook_1.default('Alchemist', '19-April-2001');
+console.log(Abook.getReleaseDate());
+var Ebook = new ebook_1.default('Alchemist', '18-Dec-2010');
+console.log(Ebook.getReleaseDate());
