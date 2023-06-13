@@ -18,13 +18,14 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var Book_1 = require("./Book");
 var AudioBook = /** @class */ (function (_super) {
     __extends(AudioBook, _super);
-    function AudioBook(bookname, releaseDate) {
+    function AudioBook(bookname, releaseDate, narrator) {
         var _this = _super.call(this, bookname) || this;
         _this.releaseDate = releaseDate;
+        _this.narrator = narrator;
         return _this;
     }
     AudioBook.prototype.getReleaseDate = function () {
-        return "AudioBook " + this.bookname + " released on " + this.releaseDate;
+        return "AudioBook " + this.bookname + " released on " + this.releaseDate + "and narrator is " + this.narrator;
     };
     return AudioBook;
 }(Book_1.Book));
