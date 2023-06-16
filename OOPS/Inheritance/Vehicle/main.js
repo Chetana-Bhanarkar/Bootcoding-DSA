@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Vehicle_1 = require("./Vehicle");
+var VehicleBrand_1 = require("./VehicleBrand");
+var VehicleModel_1 = require("./VehicleModel");
+var v = new Vehicle_1.Vehicle('car');
+var b = new VehicleBrand_1.VehicleBrand('car', 'BMW');
+var m = new VehicleModel_1.VehicleModel("car", "BMW", "X3");
+console.log(v.getVehicleName());
+console.log(b.getBrandName());
+console.log(m.getModelName());
