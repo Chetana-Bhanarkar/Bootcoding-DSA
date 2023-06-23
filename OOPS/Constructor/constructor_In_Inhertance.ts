@@ -26,5 +26,5 @@ class dog extends animal{
 
 let d = new dog("abc","xyz") ; 
 
-d.getDog();
+// d.getDog();
 
