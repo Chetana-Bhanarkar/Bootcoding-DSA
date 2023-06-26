@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Daughter_1 = require("./Daughter");
+var Mother_1 = require("./Mother");
+var Wife_1 = require("./Wife");
+var daughter = new Daughter_1.Daughter("Stephen", "Paloma");
+console.log(daughter.about());
+;
+var wife = new Wife_1.Wife("Devin");
+console.log(wife.about());
+var mother = new Mother_1.Mother('Carmen', 'Steffan');
+console.log(mother.about());
