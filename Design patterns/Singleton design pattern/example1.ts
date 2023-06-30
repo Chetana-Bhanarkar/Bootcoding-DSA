@@ -29,7 +29,7 @@ if(singleOne === singleTwo){
 }
 
 singleOne.pushLogger("First entry of logger");
-singleTwo.pushLogger("First entry of logger");
+singleTwo.pushLogger("Second entry of logger");
  
 
 
