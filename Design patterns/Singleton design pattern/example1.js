@@ -22,5 +22,5 @@ if (singleOne === singleTwo) {
     console.log("Our singleton is working");
 }
 singleOne.pushLogger("First entry of logger");
-singleTwo.pushLogger("First entry of logger");
+singleTwo.pushLogger("Second entry of logger");
 console.log('Logger info : ' + singleOne.getLogger());
