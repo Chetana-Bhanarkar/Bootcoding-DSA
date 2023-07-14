@@ -8,3 +8,5 @@ const starPattern = (n : number):any => {
     }
     return string
 }
+
+console.log(starPattern(7));
