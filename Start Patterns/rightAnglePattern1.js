@@ -4,7 +4,7 @@ var starPattern = function (n) {
         for (var j = 1; j <= i; j++) {
             string += "*";
         }
-        string += "";
+        string += "\n";
     }
     console.log(string);
 };
