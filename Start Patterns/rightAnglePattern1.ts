@@ -6,7 +6,7 @@ const starPattern = (n : number):any => {
         }
         string += "" ; 
     }
-    return string
+    console.log(string)
 }
 
-console.log(starPattern(7));
+starPattern(7);
