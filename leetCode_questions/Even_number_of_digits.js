@@ -8,7 +8,6 @@ var findNumbers = function(nums) {
         while(Math.floor(num)!=0){
             digit++;
             num = num/10;
-
         }
 
         if(digit % 2 == 0){
