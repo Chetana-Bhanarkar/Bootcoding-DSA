@@ -6,6 +6,9 @@ var starPattern = function (n) {
         }
         string += "\n";
     }
+
     console.log(string);
 };
+
+
 starPattern(7);
