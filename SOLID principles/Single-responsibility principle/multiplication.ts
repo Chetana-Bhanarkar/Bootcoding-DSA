@@ -5,8 +5,6 @@ class multiplication{
     }
 }
 
-
-
 let m = new multiplication(10,20) ; 
 let mul = m.multiply();
 console.log(mul);
