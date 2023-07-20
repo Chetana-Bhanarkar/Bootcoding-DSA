@@ -16,7 +16,6 @@ var differenceOfSum = function(nums) {
     }
 
     return Math.abs(elementSum - digitSum) ; 
-
 };
 
 console.log(differenceOfSum([1,15,6,3]));
