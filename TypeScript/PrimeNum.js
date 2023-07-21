@@ -6,4 +6,6 @@ var primeNum = function (n) {
         return n + " Its a prime number";
     }
 };
+
+
 console.log(primeNum(20));
