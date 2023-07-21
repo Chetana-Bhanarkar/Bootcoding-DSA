@@ -9,6 +9,7 @@ let fruits : String[] = ['Apple', 'Orange', 'Banana'];
 console.log(fruits); 
 
 
+
 // Using generic 
 
 let fruit : Array<String>;
