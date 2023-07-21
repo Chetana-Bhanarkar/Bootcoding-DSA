@@ -1,4 +1,6 @@
 // String is a primitive data type that is store the set of character data.
+// methods: 
+// 1. charAt().
 
 
 function strings(){
@@ -7,3 +9,4 @@ function strings(){
 }
 
 strings()
+
