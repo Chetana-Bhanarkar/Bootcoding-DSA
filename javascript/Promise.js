@@ -24,3 +24,17 @@ let prom = new Promise((resolve,reject)=>{
 })
 
 console.log(prom);
+
+
+
+const prom = (complete) => {
+    return new Promise((res,rej)=>{
+        if(complete){
+            res("Promise resolved")
+        }else{
+            rej("Promise rejected")
+        }
+    })
+}
+
+console.log(prom(false));
