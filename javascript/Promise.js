@@ -43,12 +43,8 @@ const prom = (complete) => {
     })
 }
 
-let onfulfillment = (result) => {
-    console.log("fulfill");
-}
-
-let onRejection = (error) => {
-    localStorage("reject");
-}
-
-prom(true).then(onfulfillment).catch(onRejection);
+prom(true).then((result) => {
+    console.log(result);
+}).catch((error) => {
+    console.log(error)
+});
