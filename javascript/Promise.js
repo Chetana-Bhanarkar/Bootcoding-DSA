@@ -32,13 +32,23 @@ console.log(promise);
 
 
 const prom = (complete) => {
-    return new Promise((res,rej)=>{
+    return new Promise((resolve,reject)=>{
+       setTimeout(()=>{
         if(complete){
-            res("Promise resolved")
+            resolve("Promise resolved")
         }else{
-            rej("Promise rejected")
+            reject("Promise rejected")
         }
+       },3000)
     })
 }
 
-console.log(prom(false));
+let onfulfillment = (result) => {
+    console.log("fulfill");
+}
+
+let onRejection = (error) => {
+    localStorage("reject");
+}
+
+prom(true).then(onfulfillment).catch(onRejection);
