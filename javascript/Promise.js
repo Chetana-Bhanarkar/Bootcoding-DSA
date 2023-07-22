@@ -12,9 +12,11 @@
 
 // console.log(prom);
 
+// One Way---------------
+
 
 let complete = true
-let prom = new Promise((resolve,reject)=>{
+let promise = new Promise((resolve,reject)=>{
     if(complete){
         resolve("Fullfiled")
     }
@@ -23,8 +25,10 @@ let prom = new Promise((resolve,reject)=>{
     }
 })
 
-console.log(prom);
+console.log(promise);
 
+
+// Second Way----------------
 
 
 const prom = (complete) => {
