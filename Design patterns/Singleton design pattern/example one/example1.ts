@@ -11,7 +11,7 @@ class Singleton{
     }
 
 
-    
+
     public pushLogger(data:string): void{
         this.logger.push(data);
     }
@@ -20,6 +20,8 @@ class Singleton{
         return this.logger
     }
 }
+
+
 
 let singleOne = Singleton.getSingleton() ;
 let singleTwo = Singleton.getSingleton() ;
