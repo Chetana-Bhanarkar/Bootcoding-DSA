@@ -1,8 +1,8 @@
 console.log("I am working");
 
-let p = document.querySelector('.para');
-let btn = document.querySelector('.btn');
+let par = document.querySelectorAll('.para');
+let btnnn = document.querySelector('.btn');
 
-btn.addEventListener("click",()=>{
-    p.style.color = "red"
+btnnn.addEventListener("click",()=>{
+    par.style.backgroundColor = "red";
 })
