@@ -10,8 +10,6 @@ class Singleton{
         return Singleton.singleton;
     }
 
-
-
     public pushLogger(data:string): void{
         this.logger.push(data);
     }
