@@ -11,6 +11,7 @@ class Singleton{
     }
 
 
+    
     public pushLogger(data:string): void{
         this.logger.push(data);
     }
