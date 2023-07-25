@@ -16,7 +16,6 @@ class Singleton{
     }
 }
 
-
 let s1 = Singleton.getSingleton();
 let s2 = Singleton.getSingleton();
 
