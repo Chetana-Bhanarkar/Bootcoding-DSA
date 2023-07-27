@@ -4,9 +4,13 @@ const sumofdigits = (n) => {
      while(n != 0 ){
         rem = n%10 ; 
         sum += rem ; 
-        n = n/10 ; 
+        n = Math.floor(n/10) ; 
      }
+
+     return sum ; 
 }
 
 
-console.log(sumOfDigits([23,45,67]));
+
+
+console.log(sumofdigits([1234]));
