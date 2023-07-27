@@ -9,3 +9,5 @@ const maxElement = (n) => {
     }
     return maxElem ; 
 }
+
+console.log(maxElement([4,5,2,3,7,6]));
