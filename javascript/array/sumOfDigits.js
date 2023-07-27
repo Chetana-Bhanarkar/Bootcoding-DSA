@@ -10,7 +10,14 @@ const sumofdigits = (n) => {
      return sum ; 
 }
 
+const getElement = (array) => {
+    let resultArray = [] , result ; 
+    for(let i=0; i<array.length ; i++){
+        result = sumofdigits(array[i]);
+        resultArray.push(result)
+    }
+    return resultArray ; 
+}
 
 
-
-console.log(sumofdigits([1234]));
+console.log(getElement([123,456,345]));
