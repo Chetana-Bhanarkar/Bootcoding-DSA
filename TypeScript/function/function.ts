@@ -5,3 +5,5 @@ const add = (a:sum , b:sum):sum=> {
     return a+b;
 }
 
+console.log(add(2,4));
+
