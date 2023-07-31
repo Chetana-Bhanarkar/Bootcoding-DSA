@@ -21,3 +21,5 @@ const getElement = (array) => {
 
 
 console.log(getElement([123,456,345]));
+
+// console.log(sumofdigits(123));
