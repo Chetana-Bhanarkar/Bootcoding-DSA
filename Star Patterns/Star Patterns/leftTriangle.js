@@ -1,7 +1,7 @@
-const leftTriangle = (n) => {
+const leftTrrowangle = (n) => {
     let star = ""
-    for(let i=1 ; i<=n ; i++){
-        for(let col=1 ; col <= i ; col++){
+    for(let row=1 ; row<=n ; row++){
+        for(let col=1 ; col <= row ; col++){
             star += "*"
         }
         star += '\n'
@@ -10,4 +10,4 @@ const leftTriangle = (n) => {
 }
 
 
-console.log(leftTriangle(5));
+console.log(leftTrrowangle(5));
