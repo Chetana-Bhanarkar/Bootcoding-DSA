@@ -7,6 +7,9 @@ const pyramid = (n) => {
             for(let col=1;col<=row ; col++){
                 star += "*"
             }
+            for(let col=2;col<=row;col++){
+                star+="*"
+            }
             star += "\n"
         }
         return star ; 
