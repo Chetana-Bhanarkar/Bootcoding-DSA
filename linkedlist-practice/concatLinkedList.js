@@ -8,9 +8,7 @@
 // let head1 = new Node(10);
 // let second = new Node(20);
 
-
 // head1.next = second;
-
 
 // let head2 = new Node(100);
 // let second2 = new Node(200);
