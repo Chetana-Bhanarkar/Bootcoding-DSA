@@ -9,4 +9,4 @@ const downwards = (n) => {
     return star ; 
 }
 
-console.log(downwards(7));
+console.log(downwards(10));
