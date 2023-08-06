@@ -10,4 +10,4 @@ const leftTrrowangle = (n) => {
 }
 
 
-console.log(leftTrrowangle(7));
+console.log(leftTrrowangle(10));
