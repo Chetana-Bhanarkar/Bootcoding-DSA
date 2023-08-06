@@ -12,4 +12,4 @@ const rightTriangle = (n) => {
     return star
 }
 
-console.log(rightTriangle(10));
+console.log(rightTriangle(5));
