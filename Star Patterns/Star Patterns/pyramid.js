@@ -15,4 +15,4 @@ const pyramid = (n) => {
         return star ; 
 }
 
-console.log(pyramid(5));
+console.log(pyramid(9));
