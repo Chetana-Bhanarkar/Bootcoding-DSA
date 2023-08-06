@@ -10,4 +10,4 @@ const rectangle = (n) => {
 }
 
 
-console.log(rectangle(7));
+console.log(rectangle(9));
