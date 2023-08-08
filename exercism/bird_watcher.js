@@ -50,7 +50,6 @@ const hasDayWithoutBirds = (array) => {
     }
     return visit;
 }
-
 console.log(hasDayWithoutBirds(birdsPerDay));
 
 
