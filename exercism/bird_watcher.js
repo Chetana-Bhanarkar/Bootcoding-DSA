@@ -48,7 +48,6 @@ const hasDayWithoutBirds = (array) => {
             break;
         }
     }
-
     return visit;
 }
 
