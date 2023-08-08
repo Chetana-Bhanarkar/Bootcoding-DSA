@@ -7,7 +7,6 @@ let lastweek = [0, 2, 5, 3, 7, 8, 4]
 const getLastWeek = (array) =>{
     return lastweek;
 }
-
 console.log(getLastWeek(lastweek));
 
 
