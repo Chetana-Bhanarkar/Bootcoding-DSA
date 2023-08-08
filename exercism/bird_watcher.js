@@ -31,7 +31,6 @@ console.log(getToday(birdsPerDay));
 const incrementTodaysCount=(array)=>{
     return array[array.length-1]+1;
 }
-
 console.log(incrementTodaysCount(birdsPerDay));
 
 // --------------------------------------------------------------------------------------
