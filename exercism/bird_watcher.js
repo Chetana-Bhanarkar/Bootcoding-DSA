@@ -90,7 +90,6 @@ const getBusyDays = (array) => {
         }
         return count
 };
-
 console.log(getBusyDays(birdsPerDay));
 
 // --------------------------------------------------------------------------------------
