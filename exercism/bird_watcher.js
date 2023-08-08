@@ -68,7 +68,6 @@ const getCountForFirstDays=(array,num)=>{
     }
     return sum;
 }
-
 console.log(getCountForFirstDays(birdsPerDay,4));
 
 
