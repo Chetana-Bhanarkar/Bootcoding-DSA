@@ -19,7 +19,6 @@ console.log(getLastWeek(lastweek));
 const getToday=(array)=>{
     return array[array.length-1];
 }
-
 console.log(getToday(birdsPerDay));
 
 // --------------------------------------------------------------------------------------
