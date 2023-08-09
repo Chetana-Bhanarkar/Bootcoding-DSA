@@ -11,5 +11,4 @@ const rightTriangle = (n) => {
     }
     return star
 }
-
 console.log(rightTriangle(5));
