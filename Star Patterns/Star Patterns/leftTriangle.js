@@ -8,6 +8,4 @@ const leftTrrowangle = (n) => {
     }
     return star ; 
 }
-
-
 console.log(leftTrrowangle(10));
