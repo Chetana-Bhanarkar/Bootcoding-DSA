@@ -8,6 +8,4 @@ const rectangle = (n) => {
     }
     return star ; 
 }
-
-
 console.log(rectangle(9));
