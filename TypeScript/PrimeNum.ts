@@ -7,4 +7,6 @@ const primeNum = (n:number):any => {
     }
 }
 
+
+
 console.log(primeNum(20));
