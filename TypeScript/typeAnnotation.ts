@@ -7,5 +7,4 @@ function multiply(a:number , b : number){
 
 console.log(multiply(12,4));
 
-
 //example : a: number , b: number ;  
