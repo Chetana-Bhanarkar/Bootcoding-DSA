@@ -12,4 +12,4 @@ return string;
 
 }
 
-console.log(diamond(5));
+console.log(diamond(5))
