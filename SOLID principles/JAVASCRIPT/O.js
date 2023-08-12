@@ -32,8 +32,6 @@ class Rectangle extends Shape{
     }
 }
 
-
-
 let c = new Circle(5);
 console.log(c.area());
 
