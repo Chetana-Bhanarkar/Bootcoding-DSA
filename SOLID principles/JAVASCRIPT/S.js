@@ -1,8 +1,10 @@
 // S -> Solid principle
 
 
+
+
 class Car{
-    
+
     drive(){
         return "The person can operate the car by driving.";
     }
