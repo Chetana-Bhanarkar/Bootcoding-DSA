@@ -14,4 +14,5 @@ const pyramid = (n) => {
         }
         return star ; 
 }
+
 console.log(pyramid(9));
