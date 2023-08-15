@@ -9,4 +9,5 @@ function insertionSort(arr) {
     }
     return arr
   }
+  
   console.log(insertionSort([2, 1, 3, 7, 5,4,9,6]))
