@@ -1,4 +1,4 @@
-
+// Bubble sort
 
 const bubbleSort = (a) => {
     for (let i = a.length; i > 0; i--) {
