@@ -1,3 +1,6 @@
+// Merge sort
+
+
 function mergeSort(arr) {
     // Base case
     if (arr.length <= 1){
