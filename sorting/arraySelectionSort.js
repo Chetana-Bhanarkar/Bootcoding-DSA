@@ -1,3 +1,5 @@
+//Selection sort
+
 const array = [8,9,6,3,2];
 
 const selectionSort = (a) => {
