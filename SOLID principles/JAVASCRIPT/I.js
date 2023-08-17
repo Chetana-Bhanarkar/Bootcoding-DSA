@@ -8,6 +8,10 @@ interface WaiterInterface {
     void takeOrder() ; 
 }
 
+interface ChefInterface{ 
+    void cook() ;
+    void decideMenu() ;
+}
 
 
 class Waiter implements WaiterInterface{
@@ -19,3 +23,23 @@ class Waiter implements WaiterInterface{
         console.log("Taking an order from the customers");
     }
 }
+
+
+class Chef implements ChefInterface{
+    public void cook(){
+        console.log("Cooked the food on the customer order basis.");
+    }
+
+    public void decideMenu(){
+        console.log("Decide the menu on today's possibility.");
+    }
+}
+
+const w = new Waiter();
+const c = new Chef();
+
+w.serve()
+w.takeOrder();
+
+c.cook();
+c.decideMenu()
