@@ -6,3 +6,26 @@
 
 
 
+class Bird{
+    fly(){
+        console.log("Bird is flying");
+    }
+}
+
+class Parrot extends Bird{
+    fly(){
+        console.log("Parrot is flying");
+    }
+}
+
+class Penguine extends Bird{
+    fly(){
+        throw new Error("penguine cannot fly...");
+    }
+}
+
+const parrot = new Parrot();
+const penguine = new Penguine()
+
+parrot.fly()
+penguine.fly()
