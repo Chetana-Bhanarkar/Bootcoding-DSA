@@ -24,8 +24,13 @@ class Penguine extends Bird{
     }
 }
 
+const makeBirdFly = (bird) => {
+    bird.fly()
+}
+
 const parrot = new Parrot();
 const penguine = new Penguine()
 
-parrot.fly()
-penguine.fly()
+
+makeBirdFly(parrot);
+makeBirdFly(penguine);
