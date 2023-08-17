@@ -1,3 +1,5 @@
+// O -> Open Closed Principle
+
 
 
 class Shape{
