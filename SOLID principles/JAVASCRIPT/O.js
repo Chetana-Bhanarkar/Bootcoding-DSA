@@ -1,6 +1,6 @@
 // O -> Open Closed Principle
 
-
+// Def :- Open for extension Closed for modification. 
 
 class Shape{
     area(){
