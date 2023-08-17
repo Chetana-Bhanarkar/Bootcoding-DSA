@@ -1,6 +1,6 @@
-// S -> Solid principle
+// S -> Single Responsibility principle
 
-
+// Def :- A class should have only one responsibility and only reason the change.
 
 
 class Car{
