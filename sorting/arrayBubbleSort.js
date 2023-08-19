@@ -1,5 +1,6 @@
 // Bubble sort
 
+
 const bubbleSort = (a) => {
     for (let i = a.length; i > 0; i--) {
         for (let j = 0; j < i - 1; j++) {
