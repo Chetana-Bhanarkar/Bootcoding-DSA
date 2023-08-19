@@ -1,6 +1,7 @@
 // Insertion sort
 
 
+
 let array = [2, 4, 1, 8, 3, 0, 6, 9];
 
 const insertionSort = (a) => {
