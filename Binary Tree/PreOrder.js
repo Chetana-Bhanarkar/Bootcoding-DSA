@@ -8,6 +8,7 @@ class Node{
         this.right = right;
     }
 }
+
 let root = new Node('A');
 let b = new Node('B');
 let c = new Node('C');
