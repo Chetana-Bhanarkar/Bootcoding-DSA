@@ -7,6 +7,7 @@ class Node{
     }
 }
 
+
 //Initialize the data to the variable
 let root = new Node('A');
 let b = new Node('B');
