@@ -20,7 +20,19 @@ console.log($("h1").css("background-color")); // output : 0,0,0
 
 // here we can add the class and remove the class
 
-$('h1').addClass('big-title')
+
+
+// by using addClass we can add the custom class on element;
+$('h1').addClass('big-title');
+
+// we can add multiple classes on same element ; 
+$('h1').addClass('big-title margin-around')
+
+
+// by using removeClass we can remove the applying class from element;
+$('h1').removeClass('big-title')
+
+
 
 
 
