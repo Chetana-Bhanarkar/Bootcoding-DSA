@@ -9,14 +9,19 @@ jQuery('button').css('color','blue');
 
 //like this ->
 
-// $(document).ready(()=>{
-//     $('h1').css('color','red');
-// })
+$(document).ready(()=>{
+    $('h1').css('color','red');
+})
 
-
-console.log($("h1").css("font-size")); //output : 32px
+console.log($("h1").css("font-family")); //output : 32px
 console.log($("h1").css("color")); // output : 225,0,0
 console.log($("h1").css("background-color")); // output : 0,0,0
- 
+
+
+// here we can add the class and remove the class
+
+$('h1').addClass('big-title')
+
+
 
 
