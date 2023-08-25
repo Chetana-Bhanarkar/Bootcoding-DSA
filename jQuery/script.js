@@ -52,3 +52,11 @@ $('h1').html('<em>BYE</em>')
 $('h1').text('<em>BYE</em>') // output :- <em>BYE</em>
 
 // it will not applying the tag on text 
+
+
+// ----------------------------------------Event listeners----------------------------------------------
+
+
+$('input').keypress((event)=>{
+    console.log(event.key);
+})
