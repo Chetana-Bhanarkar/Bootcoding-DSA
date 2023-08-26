@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, eos!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, obcaecati est distinctio rem vel ea possimus?
+        Porro neque facilis eum?</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <button>click</button>
+
+</body>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script>
+
+// first way 
+
+    $('button').click(() => {
+        $('p').hide()
+    })
+
+// second way 
+
+    $('button').on('click',()=>{
+        $('p').hide();
+    })
+
+</script>
+
+</html>
