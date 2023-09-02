@@ -5,8 +5,6 @@ let person : objectType = {
     age : 39
 }
 
-
-
 let user : objectType = {
     name : "steve",
     age : 44
