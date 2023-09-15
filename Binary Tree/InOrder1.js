@@ -17,7 +17,6 @@ let r = new Node("R");
 let s = new Node("S");
 
 
-
 root.left = b;
 root.left.left = p;
 root.left.right = q;
