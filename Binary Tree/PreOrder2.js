@@ -15,7 +15,6 @@ let e = new Node(125);
 let f = new Node(150);
 let g = new Node(175)
 
-
 root.left = b;
 root.left.left = d;
 root.left.right = e
