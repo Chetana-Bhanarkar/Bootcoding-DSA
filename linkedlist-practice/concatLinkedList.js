@@ -37,8 +37,6 @@
 
 // concat(head1,head2);
 
-
-
 class Node{
     constructor(data){
         this.data = data ; 
