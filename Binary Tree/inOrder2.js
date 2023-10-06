@@ -6,7 +6,6 @@ class Node{
     }
 }
 
-
 let root = new Node('10');
 let b = new Node('29');
 let c = new Node('87')
